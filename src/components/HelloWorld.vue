@@ -37,8 +37,6 @@ export default {
     msg: String
   }
 }
-const test = process.env.VUE_APP_API_KEY
-console.log("🚀 ~ file: HelloWorld.vue ~ line 41 ~ test", test)
 
 </script>
 
