@@ -1,19 +1,13 @@
 client/.DS_Store
 client/node_modules
 client/dist
-
-
-# local env files
 client/.env.local
 client/.env.*.local
 client/.env
-# Log files
 client/npm-debug.log*
 client/yarn-debug.log*
 client/yarn-error.log*
 client/pnpm-debug.log*
-
-# Editor directories and files
 client/.idea
 client/.vscode
 client/*.suo
@@ -21,3 +15,24 @@ client/*.ntvs*
 client/*.njsproj
 client/*.sln
 client/*.sw?
+client/.DS_Store
+client/node_modules
+client/dist
+
+server/.DS_Store
+server/node_modules
+server/dist
+server/.env.local
+server/.env.*.local
+server/.env
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+server/pnpm-debug.log*
+server/.idea
+server/.vscode
+server/*.suo
+server/*.ntvs*
+server/*.njsproj
+server/*.sln
+server/*.sw?
