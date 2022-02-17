@@ -1,13 +1,16 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h3>ここをこうか？</h3>
+    <h3>SampleComponent作成</h3>
+    <div id="app">
+      {{ message }}
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'SampleComponent',
   props: {
     msg: String
   }
